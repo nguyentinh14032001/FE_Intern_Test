@@ -18,7 +18,9 @@ body {
 a {
   text-decoration: none;
 }
-
+.menu-bar {
+  display: none;
+}
 /* sidebar */
 .sidebar {
   width: 8%;
