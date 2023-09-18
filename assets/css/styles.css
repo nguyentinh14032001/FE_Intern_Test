@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #0f1b4c;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+}
+/* common */
+.wrapper {
+  display: flex;
+}
+a {
+  text-decoration: none;
+}
+
+/* sidebar */
+.sidebar {
+  width: 8%;
+
+  background-color: #191718;
+}
+.sidebar ul li {
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.sidebar ul a {
+  padding: 14px 91px 11px 16px;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #aaaaaa;
+}
+.sidebar li.active a,
+.sidebar a:hover {
+  text-shadow: 1px 0 0 currentColor;
+  color: #ffffff;
+}
+/*  content*/
+
+.content-right {
+  width: 100%;
+  overflow: hidden;
+}
+.content-right .main {
+  max-width: calc(100% - 258px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.content-right .logo {
+  padding: 20px 0px 30px;
+}
+.content-right .cnn-info {
+  height: 210px;
+}
+.cnn-info .block {
+  display: flex;
+  flex-direction: column;
+  background: #efefef;
+  align-items: center;
+  height: 100%;
+  padding: 18px 269px;
+}
+.content-right .cnn-info .heading {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 21px;
+
+  color: #000000;
+}
+.cnn-info .desc {
+  font-size: 1.6rem;
+  margin-top: 18px;
+  line-height: 18.75px;
+  text-align: center;
+}
+/* blog */
+.blog {
+  display: flex;
+  margin-top: 40px;
+}
+.blog .heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #000000;
+}
+.blog .blog-item {
+  width: 33.33333%;
+}
+
+.blog .blog-item:nth-of-type(2) {
+  margin-left: 50px;
+}
+.blog .blog-item:nth-of-type(3) {
+  margin-left: 50px;
+}
+
+.blog .blog-info {
+  margin-top: 18px;
+  display: flex;
+  align-items: start;
+}
+.blog .content-blog-top {
+  font-weight: 400;
+  size: 16px;
+  line-height: 19px;
+  color: #000000;
+  word-break: break-all;
+
+  margin-left: 16px;
+}
+.blog .content-blog {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/*  */
+.footer {
+  width: 1768px;
+  margin-top: 182px;
+  border-top: 1px solid #dedede;
+}
+.footer .heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 30px 0 30px 129px;
+  /* identical to box height */
+
+  color: #3e3e3e;
+}

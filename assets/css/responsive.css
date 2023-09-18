@@ -1,0 +1,74 @@
+@media (max-width: 767px) {
+  .sidebar {
+    display: none;
+  }
+  .content-right .main {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .content-right .cnn-info {
+    width: 100%;
+    min-height: 100px;
+    overflow: hidden;
+    padding: 10px;
+  }
+  .cnn-info .block {
+    padding: 0;
+    overflow: hidden;
+    background: #fff;
+  }
+  .blog {
+    display: block;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+  .blog .blog-item {
+    padding: 20px;
+    width: 100%;
+  }
+  .blog .blog-item:nth-child(2) {
+    margin: 0;
+  }
+  .blog .blog-item:nth-child(3) {
+    margin: 0;
+  }
+  .blog .blog-item:nth-child(2) {
+    margin: 0;
+  }
+  .footer {
+    margin-top: 10px;
+  }
+  .blog {
+    width: 100%;
+  }
+  .blog .heading {
+    text-align: center;
+  }
+  .blog .blog-item {
+    display: block;
+    align-items: center;
+  }
+  .blog .blog-info {
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .blog .blog-info .logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .blog .content-blog-top {
+    text-align: start;
+    word-break: normal;
+    margin-left: 0px;
+  }
+  .blog .content-blog {
+    text-align: start;
+    word-break: normal;
+  }
+}
